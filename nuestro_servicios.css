@@ -1,0 +1,137 @@
+/*colores usados para el proyecto*/
+
+
+
+:root {
+
+    --titulos: #171F69;
+
+    --letras: #000000;
+
+    --font: #E8D009;
+
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
+
+
+}
+
+
+
+/* Barra de navegacion*/
+
+.navbar {
+
+    width: 100%;
+
+    background-color: var(--font);
+
+}
+
+
+
+#logo-container {
+
+    margin: auto;
+
+    padding: auto;
+
+    left: 0;
+
+    width: 15vw;
+
+}
+
+
+
+#logo {
+
+
+
+    width: 10vw;
+
+    height: 10vh;
+
+
+
+}
+
+
+
+
+.navbar ul a,
+
+#user {
+
+    font-weight: bold;
+
+    margin-left: 6vw;
+
+    text-decoration: none;
+
+    color: var(--titulos);
+
+}
+
+
+
+
+#user span {
+
+    margin: 5px;
+
+}
+
+#banneravion{  
+    
+    display: flex;
+
+    justify-content: center;
+}
+
+#tresfotos{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}
+
+#text1 {
+    display: flex;
+
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+
+    justify-content: center;
+}
+
+#mision{
+    width: 50%;
+    float: right;
+    justify-content: center;
+}
+
+#vision{
+    width: 50%;
+    float: right;
+    justify-content: center;
+}
+
+
+#objetivos{
+    display: flex;
+    margin-top: 2cm;
+    justify-content: center;
+}
